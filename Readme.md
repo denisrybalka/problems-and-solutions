@@ -66,9 +66,13 @@ A string of braces is considered valid if all braces are matched with the correc
 Examples:
 ```js
 "(){}[]"   =>  True
+
 "([{}])"   =>  True
+
 "(}"       =>  False
+
 "[(])"     =>  False
+
 "[({})](]" =>  False
 ```
 
